@@ -1,5 +1,5 @@
 import './Emoji.css';
 
-const Emoji = () => '💿'; 
+const Emoji = () => '⭐️'; 
 
 export default Emoji;
