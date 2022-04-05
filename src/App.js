@@ -1,7 +1,6 @@
 import DateTime from "./components/greetings.js";
 import DisplayTime from "./components/timeInScreen";
 import Expenses from "./components/Expenses.js";
-import Emoji from "./components/Emoji.js";
 import NewExpense from "./components/NewExpense/NewExpense.js";
 
 
@@ -28,6 +27,10 @@ const App = () => {
           date: new Date(2021, 5, 12),
         },
       ];
+      const addExpenseHandler = expense => {
+        console.log('In App.js');
+        console.log(expenses);
+      };
 
     return(
         //JSX Code syntax 
@@ -36,7 +39,7 @@ const App = () => {
     <section className="main">
 
         <div className="emoji">
-          <Emoji/>
+         
         </div>
   
         <div className="date">
