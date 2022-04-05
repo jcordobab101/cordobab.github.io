@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cordobab.github.io/static/css/main.fed5898c.css",
+    "main.js": "/cordobab.github.io/static/js/main.eefed9ae.js",
+    "index.html": "/cordobab.github.io/index.html",
+    "main.fed5898c.css.map": "/cordobab.github.io/static/css/main.fed5898c.css.map",
+    "main.eefed9ae.js.map": "/cordobab.github.io/static/js/main.eefed9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fed5898c.css",
+    "static/js/main.eefed9ae.js"
+  ]
+}
