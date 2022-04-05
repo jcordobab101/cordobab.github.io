@@ -1,0 +1,63 @@
+import DateTime from "./components/greetings.js";
+import DisplayTime from "./components/timeInScreen";
+import Expenses from "./components/Expenses.js";
+import Emoji from "./components/Emoji.js";
+
+
+
+const App = () => {
+    const expenses = [
+        {
+          id: 'e1',
+          title: 'Toilet Paper',
+          amount: 94.12,
+          date: new Date(2020, 7, 14),
+        },
+        { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12) },
+        {
+          id: 'e3',
+          title: 'Car Insurance',
+          amount: 294.67,
+          date: new Date(2021, 2, 28),
+        },
+        {
+          id: 'e4',
+          title: 'New Desk (Wooden)',
+          amount: 450,
+          date: new Date(2021, 5, 12),
+        },
+      ];
+
+    return(
+        //JSX Code syntax 
+   
+
+    <section className="main">
+
+        <div className="emoji">
+          <Emoji/>
+        </div>
+  
+        <div className="date">
+            <DateTime/>
+        </div>
+        <div className="name">
+            <DisplayTime />
+        </div>
+            <hr></hr>
+            <p>Expense Report 2022</p>
+            <hr></hr>
+
+        <div className="expenses">
+        <Expenses items={expenses}/>
+        </div>
+        
+      
+    </section>
+    
+
+    );
+
+}
+
+export default App;

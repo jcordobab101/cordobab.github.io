@@ -1,0 +1,19 @@
+@media (prefers-reduced-motion: no-preference) {
+    .emoji {
+      animation: App-logo-spin infinite 5s alternate;
+    }
+  }
+  
+.emoji {
+    width: 1rem;
+    font-size: 3em;
+}
+
+  @keyframes App-logo-spin {
+    from {
+      transform:rotate(0deg);
+    }
+    to {
+      transform: rotate(1080deg);
+    }
+  }
