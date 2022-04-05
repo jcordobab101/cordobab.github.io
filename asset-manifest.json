@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cordobab.github.io/static/css/main.e5b36f70.css",
-    "main.js": "/cordobab.github.io/static/js/main.d35bf7d7.js",
+    "main.css": "/cordobab.github.io/static/css/main.dbf9de63.css",
+    "main.js": "/cordobab.github.io/static/js/main.14ae0469.js",
     "index.html": "/cordobab.github.io/index.html",
-    "main.e5b36f70.css.map": "/cordobab.github.io/static/css/main.e5b36f70.css.map",
-    "main.d35bf7d7.js.map": "/cordobab.github.io/static/js/main.d35bf7d7.js.map"
+    "main.dbf9de63.css.map": "/cordobab.github.io/static/css/main.dbf9de63.css.map",
+    "main.14ae0469.js.map": "/cordobab.github.io/static/js/main.14ae0469.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5b36f70.css",
-    "static/js/main.d35bf7d7.js"
+    "static/css/main.dbf9de63.css",
+    "static/js/main.14ae0469.js"
   ]
 }
