@@ -2,6 +2,7 @@ import DateTime from "./components/greetings.js";
 import DisplayTime from "./components/timeInScreen";
 import Expenses from "./components/Expenses.js";
 import Emoji from "./components/Emoji.js";
+import NewExpense from "./components/NewExpense/NewExpense.js";
 
 
 
@@ -46,6 +47,7 @@ const App = () => {
         </div>
             <hr></hr>
             <p>Expense Report 2022</p>
+            <NewExpense/>
             <hr></hr>
 
         <div className="expenses">
